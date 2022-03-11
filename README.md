@@ -15,7 +15,8 @@ Installation:
  
 1.	Enable EPEL repo and install ansible (yum install ansible )
 2.	Copy ansible.zip and unzip it in / .
-3.	Update the host inventory file (/ansible/hostinv ) based on your requirement
+3.	add your patch file to /ansible/roles/mapr-patch/files/ dir  
+4.	Update the host inventory file (/ansible/hostinv ) based on your requirement
 
 Add the cluster node lists under the group [apps] and mention respective disk names.
 Eg :
